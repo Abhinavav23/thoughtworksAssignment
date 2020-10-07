@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,18 +16,52 @@ header{
     padding: 1rem;
     z-index: 1;
 }
-
+.classList{
+    font-size: 0;
+}
+.studentClass{
+    display: flex;
+    justify-content: space-between;
+}
 .classNo{
     width: 100px;
     margin: 1rem;
     padding: 1rem;
     display: block;
     background: lightgrey;
+    font-size: 1rem;
+    text-align: center;
 }
 .sectionName{
     width: 100px;
     padding: 0.75rem;
-    margin-left: 2rem;
+    margin: 2rem;
     background: black;
     color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.student{
+    display: inline-block;
+    width: 100px;
+    padding: 0.5rem;
+    background: lightcoral;
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0 0 0.5rem 3rem ;
+}
+.studentDetails{
+    display: none;
+    position: sticky;
+    top: 80px;
+    right: 50px;
+    width: 300px;
+    height: 500px;
+    background: #323232;
+    color: #fff;
+    text-align: justify;
+    padding: 1rem;
+}
+.studentDetails p{
+    padding-top: 0.5rem;
 }
